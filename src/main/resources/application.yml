@@ -1,0 +1,9 @@
+spring:
+  application.name: github-gardener
+
+  ai:
+    openai:
+      api-key: ${OPENAI_API_SECRET}
+      chat:
+        options:
+          model: gpt-4o-mini
