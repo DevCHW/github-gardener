@@ -1,9 +1,14 @@
 spring:
   application.name: github-gardener
 
+  config:
+    import:
+      - feign.yml
+      - openai.yml
+
   ai:
     openai:
-      api-key: ${OPENAI_API_SECRET}
+      api-key: ${spring.ai.openai.api-key}
       chat:
         options:
           model: gpt-4o-mini

@@ -1,4 +1,4 @@
-package org.devchw.gardener.infra.clients;
+package org.devchw.gardener.infra.clients.chatgpt;
 
 import lombok.RequiredArgsConstructor;
 import org.springframework.ai.openai.OpenAiChatModel;

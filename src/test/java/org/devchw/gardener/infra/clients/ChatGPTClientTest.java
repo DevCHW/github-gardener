@@ -1,5 +1,6 @@
 package org.devchw.gardener.infra.clients;
 
+import org.devchw.gardener.infra.clients.chatgpt.ChatGPTClient;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 import org.mockito.Mockito;
