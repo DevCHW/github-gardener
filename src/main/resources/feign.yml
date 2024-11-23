@@ -1,0 +1,13 @@
+spring.cloud.openfeign:
+  client:
+    config:
+      default:
+        loggerLevel: full
+        connectTimeout: 3000
+        readTimeout: 3000
+  compression:
+    response:
+      enabled: false
+  httpclient:
+    max-connections: 2000
+    max-connections-per-route: 500
